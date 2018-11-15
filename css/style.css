@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #464445;
+  font-size: 16px;
+  letter-spacing: 1px; }
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 20px; }
+
+.custom-row {
+  margin: 0 -15px;
+  overflow: hidden; }
+
+.custom-col-6 {
+  padding: 0 15px;
+  float: left;
+  width: 50%;
+  overflow: hidden; }
+
+.custom-col-12 {
+  padding: 0 15px;
+  float: left;
+  width: 100%;
+  overflow: hidden; }
+
+header {
+  background-color: #464445;
+  padding: 20px; }
+  header .logo {
+    float: left;
+    width: 40%; }
+    header .logo .logo-inner {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #5E5D5B;
+      position: relative; }
+    header .logo img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      position: absolute;
+      left: 5px;
+      top: 5px; }
+  header .info {
+    margin-top: 32px; }
+    header .info h1, header .info h3 {
+      color: #fff; }
+    header .info .title {
+      text-transform: uppercase;
+      font-weight: bold; }
+    header .info h3 {
+      font-size: 18px;
+      font-weight: 300; }
+  header .social ul {
+    margin: 0;
+    padding: 0;
+    float: left; }
+    header .social ul li {
+      list-style: none;
+      color: #fafafa;
+      font-size: 14px;
+      margin-bottom: 8px; }
+      header .social ul li svg {
+        margin-right: 10px; }
+
+.body-main {
+  padding: 40px 20px; }
+  .body-main .section {
+    margin-bottom: 50px; }
+    .body-main .section .title {
+      border-bottom: 3px solid #ccc;
+      margin-bottom: 20px; }
+      .body-main .section .title h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 700; }
+    .body-main .section .skills {
+      margin-bottom: 20px;
+      padding-right: 10px; }
+      .body-main .section .skills .title-skill h4 {
+        font-size: 18px;
+        font-weight: 600; }
+        .body-main .section .skills .title-skill h4 svg {
+          margin-right: 8px;
+          color: #556E8E; }
+      .body-main .section .skills p {
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+        font-size: 14px; }
+      .body-main .section .skills .progress {
+        margin-bottom: 10px;
+        border-radius: 0;
+        height: 10px; }
+        .body-main .section .skills .progress .progress-bar {
+          background-color: #556E8E; }
+    .body-main .section .extra-skill .title-skill h4 {
+      font-size: 18px;
+      font-weight: 600; }
+      .body-main .section .extra-skill .title-skill h4 svg {
+        margin-right: 8px;
+        color: #556E8E; }
+    .body-main .section .timeline {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .body-main .section .timeline::before {
+        position: absolute;
+        left: 4px;
+        top: 10px;
+        content: ' ';
+        display: block;
+        width: 3px;
+        height: 100%;
+        background: #ccc;
+        z-index: 5; }
+      .body-main .section .timeline li {
+        margin-left: 30px;
+        margin-bottom: 40px; }
+        .body-main .section .timeline li .xtab {
+          width: 20px;
+          display: inline-block; }
+        .body-main .section .timeline li h4 {
+          font-size: 17px;
+          font-weight: 600;
+          text-transform: uppercase;
+          position: relative;
+          margin-bottom: 10px; }
+          .body-main .section .timeline li h4:before {
+            position: absolute;
+            top: 17px;
+            left: -30px;
+            content: ' ';
+            display: block;
+            width: 10px;
+            height: 10px;
+            margin-top: -10px;
+            background: #464445;
+            border-radius: 10px;
+            z-index: 10; }
+        .body-main .section .timeline li span {
+          color: #556E8E;
+          font-size: 15px;
+          font-weight: 500;
+          margin-bottom: 10px;
+          display: block;
+          text-transform: uppercase; }
+          .body-main .section .timeline li span svg {
+            margin-right: 10px; }
+        .body-main .section .timeline li p {
+          position: relative;
+          text-align: justify;
+          margin-bottom: 10px; }
+    .body-main .section .education {
+      list-style: none;
+      padding: 0; }
+      .body-main .section .education li {
+        padding-left: 60px;
+        position: relative; }
+        .body-main .section .education li h4 {
+          font-size: 17px;
+          font-weight: 600;
+          text-transform: uppercase;
+          margin-bottom: 10px; }
+          .body-main .section .education li h4::before {
+            font-family: "Font Awesome 5 Solid";
+            content: "\f19d";
+            display: none; }
+          .body-main .section .education li h4 .fa-graduation-cap {
+            position: absolute;
+            left: 0;
+            color: #556E8E; }
+        .body-main .section .education li span {
+          color: #556E8E;
+          font-size: 15px;
+          font-weight: 500;
+          margin-bottom: 10px;
+          display: block;
+          text-transform: uppercase; }
+          .body-main .section .education li span svg {
+            margin-right: 10px; }
+    .body-main .section .duan {
+      list-style: none;
+      padding: 0; }
+      .body-main .section .duan li svg {
+        margin-right: 20px; }
+    .body-main .section .hobbies {
+      list-style: none;
+      padding: 0; }
+      .body-main .section .hobbies li {
+        display: inline-block;
+        width: 20%;
+        display: inline-block; }
+    .body-main .section .social {
+      text-align: center; }
+      .body-main .section .social li {
+        list-style: none;
+        margin-bottom: 10px; }
+        .body-main .section .social li svg {
+          width: 100%;
+          font-size: 24px;
+          margin-bottom: 5px; }
+
+.logo img {
+  width: 180px;
+  border-radius: 50%; }
+
+footer {
+  background-color: #464445;
+  padding: 10px 20px; }
+  footer p {
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px; }
+
+/*# sourceMappingURL=style.css.map */
